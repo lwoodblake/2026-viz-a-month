@@ -16,7 +16,7 @@ Visualising win% means that my visualisation also highlights some of the differe
 
 I used team badges because these are relatively clear even with the overlapping data points and because they saved space, while I highlighted the most improved teams and the ones that dropped off the most so they could quickly be identified.
 
-![january viz](https://github.com/lwoodblake/2026-viz-a-month/blob/main/january/nfl-change.png?raw=true)
+![january viz](https://github.com/lwoodblake/2026-viz-a-month/blob/main/1_january/nfl-change.png?raw=true)
 
 ## February
 ### One Twos
@@ -39,4 +39,4 @@ This work didn't exactly set the world on fire. Like I said, others have already
 
 The challenge to defining one-twos with event data is that a lot of A → B → A passing combinations are uninteresting moments. Picture two centre backs passing the ball between themselves on the edge of their own box. Soccerment took the approach of restricting their one-two definition to only situations where the one-two progressed the ball. In terms of my next steps, I would love to use the 360 contextual data we have in the Statsbomb dataset to identify situations where the one-two bypassed a defender. We could them consider the one-two to be a sort of line-breaking pass broken in half and performed in two passes instead of one.
 
-![february viz](https://github.com/lwoodblake/2026-viz-a-month/blob/main/february/one-two-example.png?raw=true)
+![february viz](https://github.com/lwoodblake/2026-viz-a-month/blob/main/2_february/one-two-example.png?raw=true)
