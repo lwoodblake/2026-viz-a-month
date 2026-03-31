@@ -40,3 +40,17 @@ This work didn't exactly set the world on fire. Like I said, others have already
 The challenge to defining one-twos with event data is that a lot of A → B → A passing combinations are uninteresting moments. Picture two centre backs passing the ball between themselves on the edge of their own box. Soccerment took the approach of restricting their one-two definition to only situations where the one-two progressed the ball. In terms of my next steps, I would love to use the 360 contextual data we have in the Statsbomb dataset to identify situations where the one-two bypassed a defender. We could them consider the one-two to be a sort of line-breaking pass broken in half and performed in two passes instead of one.
 
 ![february viz](https://github.com/lwoodblake/2026-viz-a-month/blob/main/2_february/one-two-example.png?raw=true)
+
+## March
+### The Diamonds Dataset
+This month I took a look at a classic dataset: the diamonds dataset which is pre-loaded in R. To be honest, I wanted to play around with this dataset because I wanted an excuse to create a pretty colour palette and to use some whimsical fonts. I also wanted to spend some time writing in R, which I ended up enjoying a lot. It struck me as a very organised and neat language compared to python, so I might start working on more projects in R. 
+
+When working with a dataset that has been analysed by so many people before you notice that it's difficult to find a unique perspective. This hampered my motivation a little. I ended up identifying perfect diamonds, ones with an ideal cut, IF clarity, and D colour. I found 28 "perfect" diamonds out of the 53,940 in the dataset. So, these flawless diamonds are extremely rare. They also seemed to be significantly smaller. 
+
+I created a pair of visualisations that look at the clarity variable in more detail.
+
+To account for the difference in size I adjusted the price to get "price per carat", which I then plotted alongside carat itself. The scatterplot looked pretty interesting to me. I found that diamonds between 1 and 1.5 carats had a greater spread in price per carat, with a cluster of diamonds in this carat range costing upwards of $10,000 dollars per carat. These particularly expensive diamonds tended to have higher clarity. As carat size increases, price per carat drops off and diamond clarity also declines. 
+
+The second chart shows the percentage of each clarity category for each cut category, highlighting the rarity of flawless diamonds.
+
+![march viz](https://github.com/lwoodblake/2026-viz-a-month/blob/main/3_march/diamondz.png?raw=true)
