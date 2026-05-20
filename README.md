@@ -54,3 +54,17 @@ To account for the difference in size I adjusted the price to get "price per car
 The second chart shows the percentage of each clarity category for each cut category, highlighting the rarity of flawless diamonds.
 
 ![march viz](https://github.com/lwoodblake/2026-viz-a-month/blob/main/3_march/diamondz.png?raw=true)
+
+## April
+### No Smoking
+Yes this is quite late lol. I had this idea of stacked bar charts colour coded to look like cigarettes. I also had some interest in understanding how the uptick in vaping might have affected cigarette smoking rates.
+
+I used the ONS data on cigarette smoking and vaping rates to create the stacked bar chart I had pictured. I think the look is pretty effective. I stuck with the broadest demographic of all adults (+16 years of age) rather than digging into their demographic breakdowns for simplicity. The smoking data goes back to the mid twentieth century, but I chose to focus on the twenty first century as the high smoking rates in the twentieth affected the look of my viz. I also figured that those years were not as relevant to the vaping consideration. 
+
+There was a fair bit of data cleaning as the ONS data is downloaded as a structured xlsx file, with headers, irrelevant rows, and footers cluttering the data.
+
+The ONS also changed how it asked people about vaping in 2020, so I had to convert the answers across two different datasets. Before 2020 vapers were classified as being a "current e-cigarette user, or vaper" and post 2020 users were split according to whether they were a 'daily user' or 'occasional user'. The ONS suggested adding those two categories together to get an overall percentage of vapers, so I just went with that. There's probably something interesting to dig into regarding those two groups though.
+
+This was my first time using Polars, which is neat and was fun to explore. I found the visualisation step more difficult using Polars over Pandas, but I don't know if that was simply due to my unfamiliarity.
+
+![april viz](https://github.com/lwoodblake/2026-viz-a-month/blob/main/4_april/no-smoking.png?raw=true)
