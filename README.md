@@ -68,3 +68,32 @@ The ONS also changed how it asked people about vaping in 2020, so I had to conve
 This was my first time using Polars, which is neat and was fun to explore. I found the visualisation step more difficult using Polars over Pandas, but I don't know if that was simply due to my unfamiliarity.
 
 ![april viz](https://github.com/lwoodblake/2026-viz-a-month/blob/main/4_april/no-smoking.png?raw=true)
+
+## May
+### Nebraska
+
+Okay... so I've been a little behind on getting these visuals finished up, but it's been a busy summer! One thing I did was visit Nebraska. I thought it would be cool to look at creating a state map visualising electoral results. Like a lot of flyover states, most counties are rural and vote Republican, with an occasional blue city sticking out against the sea of red.
+
+There were some fun challenges in producing this code. I spent some time working out how to merge my shapefile and election results data and used geopy to pull the extent for a given state name so I could create visualisations for multiple different states.
+
+The electoral data was downloaded from https://electionlab.mit.edu/data and the Shapefile was downloaded from the US Census Bureau. Shapefile is too large for GitHub, so is not included in this repository, but can easily be downloaded from the web.
+
+![may viz](https://github.com/lwoodblake/2026-viz-a-month/blob/main/5_may/NEBRASKA_2024.png?raw=true)
+
+## June
+### Heartbreak for England
+
+The other thing that kept me busy this summer was of course watching the World Cup, which was a great tournament despite not ending how I would have wanted it to. I wanted to visualise the changes in England's performance at major tournaments in my lifetime, illustrating the improved performance in the past decade. I ended up finishing this shortly after England were knocked out of this year's World Cup, so I've included the 2026 semi final result. 
+
+![june viz](https://github.com/lwoodblake/2026-viz-a-month/blob/main/6_june/heartbreak.png?raw=true)
+
+## July
+### LFC Results
+
+Another look at a football team's performance over time, in this case Liverpool's W/D/L statistics over the past 5 years. I really like waffle charts and this was a good opportunity to use them. 
+
+The idea is to highlight any consistencies or changes over time. Some differences are particularly striking, such as the 2024/2025 winning season compared to last season. In other cases the difference between winning the league and fighting for a Champions League spot look quite similar. The 2021/2022 season, where Liverpool's points total was 92, was particularly strong but only worthy of second place.
+
+An interesting next step for this would be to visualise the W/D/L outcomes in chronological order to identify fluctuations within a season.
+
+![july viz](https://github.com/lwoodblake/2026-viz-a-month/blob/main/7_july/lfc.png.png?raw=true)
