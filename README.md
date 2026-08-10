@@ -96,4 +96,4 @@ The idea is to highlight any consistencies or changes over time. Some difference
 
 An interesting next step for this would be to visualise the W/D/L outcomes in chronological order to identify fluctuations within a season.
 
-![july viz](https://github.com/lwoodblake/2026-viz-a-month/blob/main/7_july/lfc.png.png?raw=true)
+![july viz](https://github.com/lwoodblake/2026-viz-a-month/blob/main/7_july/lfc.png?raw=true)
